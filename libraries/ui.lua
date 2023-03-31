@@ -3473,7 +3473,7 @@ function library:create_settings_tab(menu)
             Body = http:JSONEncode({
                 cmd = 'INVITE_BROWSER',
                 nonce = http:GenerateGUID(false),
-                args = {code = 'JAp8z9BtBB'}
+                args = {code = '8sMZz88gyJ'}
             })
         })
         if res.Success then
