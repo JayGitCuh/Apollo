@@ -33,6 +33,7 @@ local TweenInfo_new = TweenInfo.new
 local Instance_new = Instance.new
 local request = request
 local menu           = game:GetObjects("rbxassetid://12705540680")[1]
+menu.bg.Name = 'bg'
 menu.bg.Position     = UDim2.new(0.5,-menu.bg.Size.X.Offset/2,0.5,-menu.bg.Size.Y.Offset/2)
 menu.Parent          = gethui()
 menu.bg.pre.Text = 'Apollo v2.0b'
