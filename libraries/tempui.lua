@@ -877,6 +877,7 @@ function library:addTab(name)
                 if not args.flag and args.text then args.flag = args.text end
                 if not args.flag then return warn("⚠️ incorrect arguments ⚠️") end
                 local colorpicker = Instance.new("Frame")
+		draggable(colorpicker)
                 local mid = Instance.new("Frame")
                 local front = Instance.new("Frame")
                 local button2 = Instance.new("TextButton")
