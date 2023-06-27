@@ -2272,4 +2272,4 @@ function library:deleteConfig()
         library:refreshConfigs()
     end
 end
-return library
+return library, menu
